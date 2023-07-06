@@ -1,6 +1,6 @@
 {
     "name": "zlux-todo-app",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "A React.js Todo App for testing",
     "main": "plugin.pax",
     "homepgae": "https://zowe.org",
