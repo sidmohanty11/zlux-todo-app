@@ -1,0 +1,26 @@
+{
+    "name": "zlux-todo-app",
+    "version": "1.0.1",
+    "description": "A React.js Todo App for testing",
+    "main": "plugin.pax",
+    "homepgae": "https://zowe.org",
+    "keywords": [
+        "zlux",
+        "appfw",
+        "app",
+        "iframe",
+        "react"
+    ],
+    "license": "EPL-2.0",
+	"publishConfig":{
+		"registry": "https://registry.npmjs.org"
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sidmohanty11/zlux-todo-app"
+    },
+    "scripts": {
+        "build": "chmod +x ./build.sh && ./build.sh",
+        "deploy": "chmod +x ./deploy.sh && ./deploy.sh && chmod +x ./cleanup.sh && ./cleanup.sh"
+    }
+}
