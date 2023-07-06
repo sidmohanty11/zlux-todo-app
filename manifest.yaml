@@ -1,0 +1,26 @@
+---
+name: todo-app
+id: org.zowe.zlux.todo.app
+# Without the v
+version: 2.9.0
+# Human readable component name
+title: ToDo App
+# Human readable component description
+description: 'A sample ToDo application built with React'
+homepage: https://zowe.org
+keywords:
+  - zlux
+  - appfw
+  - app
+  - react
+  - sample
+  - todo
+license: EPL-2.0
+repository:
+  type: git
+  url: https://github.com/sidmohanty11/zowe-todo-plugin
+# we do not specify encoding here because its already tagged ascii
+appfwPlugins:
+  - path: .
+schemas:
+  configs: schemas/trivial-schema.json

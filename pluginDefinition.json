@@ -1,0 +1,36 @@
+{
+  "identifier": "org.zowe.zlux.todo.app",
+  "apiVersion": "2.0.0",
+  "pluginVersion": "2.9.0",
+  "pluginType": "application",
+  "license": "EPL-2.0",
+  "author": "Zowe",
+  "homepage": "https://github.com/sidmohanty11/zowe-todo-plugin",
+  "webContent": {
+    "framework": "react",
+    "launchDefinition": {
+      "pluginShortNameKey": "todoapp.name",
+      "pluginShortNameDefault": "ToDo App",
+      "imageSrc": "assets/icon.png"
+    },
+    "descriptionKey": "todoapp.description",
+    "descriptionDefault": "A sample ToDo application built with React",
+    "defaultWindowStyle": {
+      "width": 900,
+      "height": 420
+    }
+  },
+  "dataServices": [],
+  "configurationData": {
+    "resources": {
+      "requests": {
+        "aggregationPolicy": "override",
+        "subResources": {
+          "app": {
+            "aggregationPolicy": "override"
+          }
+        }
+      }
+    }
+  }
+}
