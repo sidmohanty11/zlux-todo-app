@@ -10,9 +10,9 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import App from './App1';
+import App from './App';
 //import './App.css';
-import './assets/i18n/i18n';
+// import './assets/i18n/i18n';
 
 import { ReactMVDResources } from 'pluginlib/react-inject-resources';
 import { MVDResources } from './mvd-resources';
